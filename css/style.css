@@ -63,8 +63,10 @@ a{
 .link-arrow::after{
     content: "-->";
     margin-left: 5px;
-    transition: margin .15s;
+    transition:  margin .15s;
+
 }
+
 .link-arrow:hover::after{
     margin-left: 10px;
 }
