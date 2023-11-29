@@ -11,6 +11,7 @@
 }
 body{
     color: var(--color-body);
+    line-height: 1.5;
 }
 html{
     font-size: 62.5%;
@@ -29,4 +30,8 @@ h2{
 }
 h3{
     font-size: 3rem;
+    margin-bottom: 2rem;
+}
+p{
+    margin-top: 0;
 }
