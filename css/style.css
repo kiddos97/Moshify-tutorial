@@ -334,4 +334,27 @@ a{
     font-size: 3rem;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 0;
+}
+.quote__organization{
+    opacity: 0.4;
+    color: var(--color-headings);
+    font-size: 2rem;
+    font-style: normal;
+}
+.quote__line{
+    position: relative;
+    bottom: 10px;
+}
+@media screen and (min-width:1024px) {
+    .quote{
+        font-size: 2rem;
+    }
+    .quote__author{
+        font-size: 2.4rem;
+    }
+    .quote__organization{
+        font-size: 1.6rem;
+    }
+    
 }
