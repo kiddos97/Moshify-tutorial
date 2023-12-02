@@ -618,3 +618,20 @@ a{
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 }
+/* Plan Block*/
+.block--plan .grid{
+    gap: 4rem;
+}
+.block--plan__card{
+    width: 100%;
+    padding: 4rem;
+}
+.block--plan{
+    transition: transform .5s ease-in;
+}
+.plan .block--plan__primary{
+    background: var(--color-primary)
+}
+.plan .block--plan:hover{
+    transform: scale(1.1);
+}
