@@ -1,0 +1,4 @@
+#DDD0C8 - Beige color
+#323232 - Dark Grey
+font color, black and white
+
