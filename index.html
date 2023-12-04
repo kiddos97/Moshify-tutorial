@@ -15,7 +15,7 @@
             <use xlink:href="images/sprite.svg#wordpress"></use>
           </svg>
         </span>
-        <h3 class="feature__heading">Super East to Use</h3>
+        <h3 class="feature__heading">Super Easy to Use</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor
           minima magni, aspernatur porro dolores quo doloremque ratione eius
@@ -23,7 +23,15 @@
         </p>
         <a class="link-arrow" href="#">Learn More</a>
         <picture class="feature--image">
-          <img src="images/webdeisgn1.jpg" alt="lime website" />
+          <source
+            type="image/webp"
+            srcset="image/laptop.webp 1x, images/laptop@2x.webp"
+          />
+          <source
+            type="image/jpg"
+            srcset="image/laptop.jpg 1x, images/laptop@2x.jpg"
+          />
+          <img src="images/laptop@2x.jpg" alt="laptop" />
         </picture>
       </div>
     </article>
