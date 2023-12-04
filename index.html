@@ -8,33 +8,41 @@
     <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
-    <article class="grid grid--cols-2 feature">
-      <div class="block container">
-        <span class="icon-container">
-          <svg class="icon icon--primary">
-            <use xlink:href="images/sprite.svg#wordpress"></use>
-          </svg>
-        </span>
-        <h3 class="feature__heading">Super Easy to Use</h3>
+    <section class="block container">
+      <header class="block__header">
+        <h2>Host on the Cloud to Keep Growing</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor
-          minima magni, aspernatur porro dolores quo doloremque ratione eius
-          omnis.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
+          voluptatem.
         </p>
-        <a class="link-arrow" href="#">Learn More</a>
-        <picture class="feature--image">
+      </header>
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super Easy to Use</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
           <source
             type="image/webp"
-            srcset="image/laptop.webp 1x, images/laptop@2x.webp"
+            srcset="images/resized/easy.webp 1x, images/resized/easy@2x.webp 2x"
           />
           <source
             type="image/jpg"
-            srcset="image/laptop.jpg 1x, images/laptop@2x.jpg"
+            srcset="images/resized/easy.jpg 1x, images/resized/easy@2x.jpg 2x"
           />
-          <img src="images/resized/laptop.jpg" alt="laptop" />
+          <img class="feature__image" src="images/resized/easy@2x.jpg" alt="" />
         </picture>
-      </div>
-    </article>
+      </article>
+    </section>
     <script src="js/main.js"></script>
   </body>
 </html>

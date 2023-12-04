@@ -647,19 +647,12 @@ a{
     transition: transform .5s ease-in;
 }
 /* Feature Heading*/
-
+.feature{
+    gap: 4rem 2rem;
+}
 .feature__heading{
-    font-size: 3rem;
     margin: 1rem 0;
 }
-.feature--icon .icon{
-    box-shadow: 0 0 4px grey;
-}
-.feature--image img{
-    width: 100%;
-}
-.feature--header h1{
-   
-    text-align: center;
-    margin: 0;
+.feature-image{
+    width:100%;
 }
