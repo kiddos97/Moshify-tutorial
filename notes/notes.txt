@@ -1,4 +1,7 @@
 #DDD0C8 - Beige color
 #323232 - Dark Grey
+#1b0760 -- heading color (previous)
 font color, black and white
+"→" -- arrow
+#f3f9fa; - icon container background color
 

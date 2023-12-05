@@ -2,7 +2,7 @@
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
     --color-accent: #ff3400;
-    --color-headings: #1b0760;
+    --color-headings: #000;
     --color-body: #918ca4;
     --color-border: #ccc;
     --color-body-darker: #5c5577;
@@ -42,6 +42,7 @@ h3{
     font-size: 3rem;
 }
 p{
+    color: #000;
     margin-top: 0;
 }
 @media screen and (min-width:1024px){
@@ -63,13 +64,13 @@ a{
     text-decoration: none;
 }
 .link-arrow{
-    color: var(--color-accent);
+    color: #323232;
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: bold;
 }
 .link-arrow::after{
-    content: "-->";
+    content: "→";
     margin-left: 5px;
     transition:  margin .15s;
 
@@ -149,11 +150,14 @@ a{
 .icon--primary{
     fill: var(--color-primary)
 }
+.icon--black{
+    fill:#000;
+}
 .icon--white{
     fill:#fff;
 }
 .icon-container{
-    background: #f3f9fa;
+    background: #DDD0C8;
     width: 60px;
     height: 60px;
     border-radius: 100%;
@@ -649,10 +653,12 @@ a{
 /* Feature Heading*/
 .feature{
     gap: 4rem 2rem;
+    margin: 12rem 0;
 }
 .feature__heading{
     margin: 1rem 0;
 }
-.feature-image{
-    width:100%;
+.feature__image {
+    width:100%; 
+    border-radius: 20px;
 }
