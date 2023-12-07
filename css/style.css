@@ -352,6 +352,7 @@ a{
 }
 .media{
     display: flex;
+    margin-bottom: 4rem;
 }
 .media__title{
     margin-top: 0;
@@ -677,10 +678,10 @@ a{
     
 }
 /* Show Case*/
-.showcase{
-    gap: 0 6rem;
+.showcase__heading{
+    margin-bottom: 4rem;
 }
-.showcase__image{
+.showcase__image > img{
      width: 100%;
 }
 @media screen and (min-width:768px) {
@@ -688,6 +689,7 @@ a{
         grid-template-columns: 50% 50%;
     }
     .showcase__image{
+        margin-right: 40px;
         justify-self: end;
     }
     .showcase__image > img{
