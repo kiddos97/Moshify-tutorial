@@ -13,24 +13,27 @@
     </style>
   </head>
   <body>
-    <section class="block container">
+    <section class="block showcase">
       <header class="block__header">
-        <h2>User-Friendly Control Panel</h2>
+        <h2 class="block__heading">User-Friendly Control Panel</h2>
       </header>
-      <div class="grid grid--cols-1">
-        <div class="showcase__content">
-          <img src="images/ipad.png" alt="ipad" />
-          <span class="icon-container">
-            <svg class="icon icon--black">
-              <use xlink:href="images/sprite.svg#wordpress"></use>
-            </svg>
-          </span>
-          <h3>Easy Start & Manged Updates</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus dicta, libero laudantium dolores illum aliquid.
-          </p>
-        </div>
+      <div class="container grid grid--cols-2">
+        <picture class="showcase__image">
+          <source
+            type="image/webp"
+            srcset="images/resized/ipad.webp 1x, images/resized/ipad@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/resized/ipad.png 1x, images/resized/ipad@2x.png 2x"
+          />
+          <img src="images/resized/ipad@2x.png" alt="" />
+        </picture>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+          provident aut molestiae ab quis perspiciatis at deserunt corrupti ea
+          reiciendis!
+        </p>
       </div>
     </section>
     <script src="js/main.js"></script>
