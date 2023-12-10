@@ -4,4 +4,6 @@
 font color, black and white
 "→" -- arrow
 #f3f9fa; - icon container background color
+#2272FF - neon blue
+#1D1D1 - black
 
